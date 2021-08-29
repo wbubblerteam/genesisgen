@@ -230,7 +230,8 @@ int main(int argc, char *argv[])
 	else //else if(nBits <= 4294967296LL)
 	{
 		transaction->scriptSig[scriptSig_pos++] = 0x04;
-		memcpy(transaction->scriptSig+scriptSig_pos, 486604799, 4);
+		uint32_t nBitsFixed = 486604799;
+		memcpy(transaction->scriptSig+scriptSig_pos, &nBitsFixed, 4);
 		scriptSig_pos+=4;
 	}
 
