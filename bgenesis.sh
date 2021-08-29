@@ -20,15 +20,15 @@ echo "testnet reproduction"
 echo
 
 # signet original
-#./genesis 04b370600b143e9e7db6206de8dbdefdf109e8fe44ac343f6e07da71d0a94bc4c7552aadab878c0bbfa8354d15efab72084951060df7a81087731c83037370551d "The Wbubbler 17/Feb/2021 Hello, I am Wbubbler, your friend! Bub is cool." 503543726 0 $(date +%s)
+./genesis 04b370600b143e9e7db6206de8dbdefdf109e8fe44ac343f6e07da71d0a94bc4c7552aadab878c0bbfa8354d15efab72084951060df7a81087731c83037370551d "The Wbubbler 17/Feb/2021 Hello, I am Wbubbler, your friend! Bub is cool." 503543726 0 $(date +%s)
 echo
-echo "signet reproduction"
-./genesis 04b370600b143e9e7db6206de8dbdefdf109e8fe44ac343f6e07da71d0a94bc4c7552aadab878c0bbfa8354d15efab72084951060df7a81087731c83037370551d "The Wbubbler 17/Feb/2021 Hello, I am Wbubbler, your friend! Bub is cool." 503543726 518570106 1630244482
-echo
+#echo "signet reproduction"
+#./genesis 04b370600b143e9e7db6206de8dbdefdf109e8fe44ac343f6e07da71d0a94bc4c7552aadab878c0bbfa8354d15efab72084951060df7a81087731c83037370551d "The Wbubbler 17/Feb/2021 Hello, I am Wbubbler, your friend! Bub is cool." 503543726 518570106 1630244482
+#echo
 
 # regtest original
-#./genesis 04b370600b143e9e7db6206de8dbdefdf109e8fe44ac343f6e07da71d0a94bc4c7552aadab878c0bbfa8354d15efab72084951060df7a81087731c83037370551d "The Wbubbler 17/Feb/2021 Hello, I am Wbubbler, your friend! Bub is cool." 545259519 0 1630243004
+./genesis 04b370600b143e9e7db6206de8dbdefdf109e8fe44ac343f6e07da71d0a94bc4c7552aadab878c0bbfa8354d15efab72084951060df7a81087731c83037370551d "The Wbubbler 17/Feb/2021 Hello, I am Wbubbler, your friend! Bub is cool." 545259519 0 1630243004
 echo
-echo "regtest reproduction"
-./genesis 04b370600b143e9e7db6206de8dbdefdf109e8fe44ac343f6e07da71d0a94bc4c7552aadab878c0bbfa8354d15efab72084951060df7a81087731c83037370551d "The Wbubbler 17/Feb/2021 Hello, I am Wbubbler, your friend! Bub is cool." 545259519 2504898778 1630243004
-echo
+#echo "regtest reproduction"
+#./genesis 04b370600b143e9e7db6206de8dbdefdf109e8fe44ac343f6e07da71d0a94bc4c7552aadab878c0bbfa8354d15efab72084951060df7a81087731c83037370551d "The Wbubbler 17/Feb/2021 Hello, I am Wbubbler, your friend! Bub is cool." 545259519 2504898778 1630243004
+#echo
